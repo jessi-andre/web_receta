@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    background-color: hsl(0, 0%, 100%);
+}
+
+/*GENERAL*/
+
+.padding-1 {
+    padding: 18px;
+}
+
+.padding-2 {
+    padding: 24px;
+}
+
+p {
+    font-size: 16px;
+    font-family: 'Outfit';
+    color: hsl(24, 5%, 18%);
+}
+
+h3 {
+    margin-bottom: 10px;
+    font-size: 26px;
+    font-family: 'Young Serif';
+    font-weight: 400;
+    color: hsl(14, 45%, 36%);
+}
+
+/*HEADER*/
+.header {
+    padding-top: 25px;
+    max-width: 1440px;
+    margin: auto;
+}
+
+.header-imagen {
+    width: 100%;
+    border-radius: 22px;
+}
+
+.header-titulo {
+    margin-top: 28px;
+    color: hsl(24, 5%, 18%);
+    font-size: 36px;
+    font-family: 'Young Serif';
+    font-weight: 400;
+}
+
+
+/*SESION PREPARACIÓN*/
+.tiempo-preparacion-sesion {
+    margin-top: 10px;
+    border-radius: 8px;
+    background-color: hsl(330, 100%, 98%);
+}
+
+.tiempo-preparacion-title {
+    margin-bottom: 11px;
+    font-family: 'Outfit';
+    font-weight: 600;
+    color: hsl(332, 51%, 32%);
+}
+
+.tiempo-preparacion-sesion ul li::marker {
+    color: hsl(332, 51%, 32%);
+}
+
+/*SESION INGREDIENTES
+::MARKER LE DA COLOR A LAS VIÑETAS*/
+.ingredientes ul li::marker {
+    color: hsl(14, 45%, 36%);
+}
+
+/*SESION INSTRUCCIONES*/
+.instrucciones ol li::marker {
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
+/*SESION NUTRICIÓN*/
+.nutricion-parrafo {
+    padding-top: 10px;
+}
+
+/*LISTAS*/
+.lista {
+    padding: 22px;
+}
+
+ul>li,
+ol>li {
+    margin-bottom: 10px;
+    color: hsl(24, 5%, 18%);
+    font-size: 16px;
+    font-family: 'Outfit';
+    font-weight: 400;
+    padding-left: 20px;
+    /*le da espacios desde el borde*/
+}
+
+table {
+    width: 100%;
+    font-size: 16px;
+    border-collapse: collapse;
+    /* Une los bordes de las celdas */
+    margin-top: 10px;
+    font-family: 'Outfit';
+    font-weight: 400;
+}
+
+
+td {
+    padding: 8px 12px;
+    border-bottom: 1px solid hsl(24, 5%, 18%);
+    /* Línea inferior de cada fila */
+}
+
+td:nth-child(2) {
+    color: hsl(14, 45%, 36%);
+    font-family: 'Outfit';
+    font-weight: 600;
+
+}
+
+tr:last-child td {
+    border-bottom: none;
+    /* Eliminar la línea inferior de la última fila */
+}
+
+/*FOOTER*/
+
+footer {
+    color: hsl(24, 5%, 18%);
+}
+
+.attribution a {
+    text-decoration: none;
+    color: hsl(24, 5%, 18%);
+    font-size: 12px;
+}
+
+.attribution {
+    text-decoration: none;
+    font-family: 'Outfit';
+    font-weight: 400;
+    font-size: 12px;
+    color: hsl(24, 5%, 18%);
+}
+
+footer a:hover {
+    text-decoration: underline;
+    /* Subrayado al pasar el cursor */
+}
